@@ -106,7 +106,7 @@ if st.session_state.screen=="":
     #loginSubmit=text_input_container.button('Login')
     email=st.text_input('Enter Login Mail:',key="email")
     userType=st.radio("Enter user type:",['Client','Support'])
-    pwd=st.text_input('Enter password',key="pwd")
+    pwd=st.text_input('Enter password',key="pwd",type='password')
     loginSubmit=st.button('Login')
 
 
