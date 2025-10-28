@@ -1,7 +1,7 @@
 # ManagementPortal
-This repository has the code for query management of clients and support load, discovery of statistic on issues 
+This repository has the code for query management of clients and support load, statistic discovery on queries 
 
-Features:
+Current Features:
 1. Management Portal :
    cmd - streamlit run /Users/manikandan/Documents/Sujitha/vsCode_Proj/UserQueryManagement.py
 
@@ -18,9 +18,14 @@ Features:
        b. Admin can onboard user and reset their password on request.
        c. Stats page shows ETA for a common query type, Performance report on different timelines, Start performers in support, Most repeated queries, Current load of support team
 
-3. Batch of query can be loaded in database after cleansing on the email, contact in case of migration or outage
+3. Batch of queries (from csv file) can be loaded in database after cleansing on the email, contact in case of migration
    cmd - python BulkQueryLoad.py
 
 4. Assign outstanding Query as per the support availability
    cmd - python AssignQuery.py
 
+Future Scope:
+1. As per support load, we can automate AssignQuery.py class to run in a defined frequency.
+2. We can have automated tracker to check the sudden spike of any common issue and alert the Admin and support team.
+3. Analysis can be performed on Least rated queries and find RCA
+4. A bot can be placed to answer some repeated  self do able client queries OR ETA of Past query history
