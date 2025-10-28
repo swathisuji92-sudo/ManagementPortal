@@ -25,7 +25,8 @@ Current Features:
    cmd - python AssignQuery.py
 
 Future Scope:
-1. As per support load, we can automate AssignQuery.py class to run in a defined frequency.
-2. We can have automated tracker to check the sudden spike of any common issue and alert the Admin and support team.
-3. Analysis can be performed on Least rated queries and find RCA
-4. A bot can be placed to answer some repeated  self do able client queries OR ETA of Past query history
+1. Login process can be OTP authenticated via mobile or email. As it is more protected than Password, which is hard to remember and it not rotated also.
+2. As per support load on the day, we can automate AssignQuery.py class to run in a defined frequency and assign query to each member.
+3. We can have automated tracker to check the sudden spike of any common issue and alert the Admin and Technical team.
+4. Analysis can be performed on Least rated queries and do RCA
+5. A bot can be placed to answer some repeated self do able client queries OR ETA of Past query history
